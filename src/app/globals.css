@@ -249,7 +249,62 @@ body {
 }
 
 .ftop {
-    top: -30px !important;
+    position: relative;
+    top: -60px !important;
 }
 
 /* section2 end */
+
+/* footer start */
+
+.ftr {
+    background-image: url(../../public/assets/images/bggg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.icon {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.ftrpar {
+    color: #A5A5A5;
+    line-height: 28px
+}
+
+.ftrlist {
+    color: #A5A5A5;
+}
+
+/* footer end */
+
+
+
+
+
+
+/* about start */
+
+.aboutimg {
+    position: relative;
+    right: -150px;
+    top: 38px;
+}
+
+.abttit {
+    font-size: 90px
+}
+
+.aboutcot {
+    color: #A5A5A5;
+    line-height: 28px
+}
+
+.abouttop {
+    top: -150px;
+}
+
+/* about end */

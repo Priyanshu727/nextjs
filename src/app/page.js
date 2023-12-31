@@ -18,8 +18,7 @@ const page = () => {
       <Chooseus />
       <Testimonial />
       <Section1 />
-      <Section2/>
-      
+      <Section2/>    
     </>
   )
 }

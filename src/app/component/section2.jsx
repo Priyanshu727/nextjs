@@ -3,12 +3,12 @@ import React from 'react'
 const Section2 = () => {
   return (
     <>
-      <section>
-        <div className="ftop poistion-relative">
+      <section className="pb-5">
+        <div className="ftop">
           <img src="/assets/images/dimg.png" width="100%" alt="" />
         </div>
         <div className="container">
-          <div className="row justify-content-center text-center pt-2 align-iten center pt-5">
+          <div className="row justify-content-center text-center pt-2 align-iten center">
             <div className="frm ">
               <div className="frmtit pt-5">
                 <img src="/assets/images/frmt.png" alt="" />
