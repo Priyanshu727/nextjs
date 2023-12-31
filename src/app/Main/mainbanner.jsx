@@ -7,7 +7,7 @@ const Mainbanner = () => {
         <div className="d-flex">
           <div className="col-7 black position-relative">
             <div className="blackinn pt-5 d-flex flex-row justify-content-center align-items-center">
-              <div className="col-6 pt-5 ps-5" style={{ marginLeft: "782px" }}>
+              <div className="col-6 pt-5" style={{ marginLeft: "598px" }}>
                 <div className="blackcont pt-5 pe-5 me-5">
                   <div className="blackig">
                     <img src="/assets/images/ig.png" alt="" />
@@ -27,7 +27,7 @@ const Mainbanner = () => {
               <div className="col-6">
                 <div className="center">
                   <div className="plat">
-                    <img src="/assets/images/cig.png" alt="" />
+                    <img src="/assets/images/cig.png" width="500px" height="450px" alt="" />
                   </div>
                 </div>
               </div>
@@ -35,7 +35,7 @@ const Mainbanner = () => {
           </div>
           <div className="col-5 yellow position-relative ">
             <div className="yellowinn text-center">
-              <img src="/assets/images/curv.png" alt="" />
+              <img src="/assets/images/curv.png" width="150px" alt="" />
             </div>
           </div>
         </div>

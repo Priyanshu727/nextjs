@@ -1,5 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import style from "../style/Header.module.css";
+import Link from "next/link";
 
 function Header() {
   return (
@@ -16,42 +17,42 @@ function Header() {
                   className={` ${style.menu} d-flex justify-content-between align-items-start gap-4`}
                 >
                   <li>
-                    <a
-                      href=""
+                    <Link
+                      href="/"
                       className={`${style.tag} ${style.active} fw-bold `}
                     >
                       Home
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="" className={`${style.tag} fw-light   `}>
+                    <Link href="/about" className={`${style.tag} fw-light   `}>
                       About Us
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="" className={`${style.tag} fw-light `}>
+                    <Link href="/rooms" className={`${style.tag} fw-light `}>
                       Rooms
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="" className={`${style.tag} fw-light `}>
+                    <Link href="/banquet" className={`${style.tag} fw-light `}>
                       Banquet
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="" className={`${style.tag} fw-light `}>
+                    <Link href="/events" className={`${style.tag} fw-light `}>
                       Events
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="" className={`${style.tag} fw-light `}>
+                    <Link href="/faq" className={`${style.tag} fw-light `}>
                       FAQ's
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="" className={`${style.tag} fw-light `}>
+                    <Link href="/contact" className={`${style.tag} fw-light `}>
                       Contact Us
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

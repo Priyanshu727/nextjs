@@ -1,9 +1,12 @@
+body {
+    text-decoration: none;
+}
+
 .black {
     background-image: url(../../public/assets/images/bggg.png);
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
     top: -114px;
     z-index: -1;
     padding-top: 80px;
@@ -26,12 +29,11 @@
     width: 100%;
     height: 100vh;
     background-size: cover;
-    background-attachment: fixed;
     top: -114px;
     right: 0px;
     z-index: -3;
-    padding-top: 200px;
-    padding-left: 150px;
+    padding-top: 236px;
+
 }
 
 .blackwel {
@@ -54,5 +56,200 @@
 }
 
 .center {
-    padding-top: 200px;
+    padding-top: 70px;
 }
+
+
+
+/* sub banner start */
+
+.subtop {
+    right: -303px;
+    top: -260px;
+}
+
+.subtt {
+    top: -170px;
+}
+
+/* sub banner end  */
+
+/* service start */
+
+.serv {
+    background-image: url(../../public/assets/images/sbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text-warning {
+    text-decoration: none;
+}
+
+
+/* serivice end  */
+
+/* evnet start */
+.evtp {
+    color: #959595;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.evth {
+    color: #333;
+    font-family: Roboto;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100px;
+}
+
+.evttop {
+    top: -63px;
+}
+
+.evttom {
+    top: -289px;
+    left: -305px;
+}
+
+.evtgal:hover {
+    cursor: pointer;
+}
+
+/* event end  */
+
+/* choose us start */
+
+.chocout {
+    background-image: url(../../public/assets/images/sbg.png);
+    background-repeat: no-repeat;
+    width: 110% !important;
+    right: -133px;
+    z-index: -1;
+}
+
+.chooseimg {
+    left: 72px;
+    top: 19px;
+}
+
+.chooig {
+    padding-bottom: 80px;
+}
+
+/* choose us end  */
+
+/* testimonial start */
+
+.testreviw {
+    background-color: rgb(243, 235, 224);
+    border-radius: 10px 10px 10px 10px;
+    width: 500px;
+}
+
+.testpera {
+    width: 200px;
+}
+
+.tttop {
+    top: -117px;
+}
+
+.tth {
+    font-size: 50px;
+}
+
+/* testimonial end */
+
+
+/* section1 start */
+
+.mainfaq {
+    background-image: url(../../public/assets/images/sbg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.accordion-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+    background-color: #6c63ff;
+    color: #ffffff;
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px 8px 0 0;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #5753c9;
+}
+
+.accordion-content {
+    background-color: #fafafa;
+    overflow: hidden;
+    padding: 0 15px;
+    max-height: 0;
+    transition: max-height 0.3s ease;
+}
+
+.accordion-content p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.icon {
+    transition: transform 0.3s ease;
+}
+
+.active .icon {
+    transform: rotate(45deg);
+}
+
+.faqimg {
+    top: -550px;
+    left: -304px;
+}
+
+.faqsec {
+    height: 450px;
+}
+
+/* section1 end */
+
+/* section2 start */
+
+.frmt {
+    text-align: justify !important;
+}
+
+.frm {
+    background-color: #F9F6F1;
+}
+
+.ftop {
+    top: -30px !important;
+}
+
+/* section2 end */
